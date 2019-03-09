@@ -69,6 +69,7 @@
     </Compile>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Model\Controller.cs" />
     <Compile Include="Model\Map\Code.cs" />
     <Compile Include="Model\Map\Images.cs" />
     <Compile Include="Model\Models\Name.cs" />
