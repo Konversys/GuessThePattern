@@ -5,6 +5,8 @@ VisualStudioVersion = 15.0.28307.168
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GuessThePattern", "GuessThePattern\GuessThePattern.csproj", "{D424EE85-58A3-4110-AB28-D9AC18E7DAAD}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Test", "Test\Test.csproj", "{21B64E1C-8F33-4DEE-8F7A-263EBD3056E1}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{D424EE85-58A3-4110-AB28-D9AC18E7DAAD}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D424EE85-58A3-4110-AB28-D9AC18E7DAAD}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D424EE85-58A3-4110-AB28-D9AC18E7DAAD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{21B64E1C-8F33-4DEE-8F7A-263EBD3056E1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{21B64E1C-8F33-4DEE-8F7A-263EBD3056E1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{21B64E1C-8F33-4DEE-8F7A-263EBD3056E1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{21B64E1C-8F33-4DEE-8F7A-263EBD3056E1}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
