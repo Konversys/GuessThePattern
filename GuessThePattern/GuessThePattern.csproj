@@ -69,6 +69,7 @@
     </Compile>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Model\Map\Images.cs" />
     <Compile Include="Properties\AssemblyInfo.cs">
       <SubType>Code</SubType>
     </Compile>
@@ -93,6 +94,17 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Model\Map\Images\AbstractFactory.png" />
+    <Resource Include="Model\Map\Images\Adapter.png" />
+    <Resource Include="Model\Map\Images\Builder.png" />
+    <Resource Include="Model\Map\Images\Command.png" />
+    <Resource Include="Model\Map\Images\Decorator.png" />
+    <Resource Include="Model\Map\Images\FactoryMethod.png" />
+    <Resource Include="Model\Map\Images\Iterator.png" />
+    <Resource Include="Model\Map\Images\Prototype.png" />
+    <Resource Include="Model\Map\Images\Strategy.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
