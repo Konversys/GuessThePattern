@@ -51,6 +51,9 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="ImagesTest.cs" />
+    <Compile Include="PatternsNameTest.cs" />
+    <Compile Include="PatternsTitleTest.cs" />
+    <Compile Include="PatternsUMLTest.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="CodeTest.cs" />
   </ItemGroup>
