@@ -5,8 +5,24 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:GuessThePattern"
         mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="800">
+        Title="Колдуем на 25 баллов" Height="520" Width="800">
     <Grid>
-        
+        <Button x:Name="start" Content="Начать тест" HorizontalAlignment="Center" VerticalAlignment="Center" Width="120" Height="35" FontSize="16" FontWeight="DemiBold" Click="Start_Click"/>
+        <Grid x:Name="grid" Visibility="Hidden">
+            <TextBlock x:Name="progress" HorizontalAlignment="Center" Foreground="Black" FontSize="16" FontWeight="DemiBold" TextWrapping="Wrap" Text="Прогресс выполнения: 0 из 10" VerticalAlignment="Top"/>
+            <Image x:Name="image" HorizontalAlignment="Stretch" Height="382" Margin="10,25,10,0" VerticalAlignment="Top"/>
+            <ScrollViewer x:Name="scroll" HorizontalAlignment="Stretch" Height="382" Margin="10,25,10,0" VerticalAlignment="Top">
+                <TextBlock x:Name="code"/>
+            </ScrollViewer>
+            <Button x:Name="next" Content="Далее" HorizontalAlignment="Right" Margin="0,435,10,0" VerticalAlignment="Top" Width="100" Height="25" Click="Next_Click"/>
+            <GroupBox Header="Выберите верный вариант" HorizontalAlignment="Left" Height="51" Margin="10,425,0,0" VerticalAlignment="Top" Width="650">
+                <StackPanel Orientation="Horizontal">
+                    <RadioButton x:Name="variant1" HorizontalAlignment="Left" Height="14" Margin="10,5,0,0" VerticalAlignment="Top"/>
+                    <RadioButton x:Name="variant2" HorizontalAlignment="Left" Height="14" Margin="10,5,0,0" VerticalAlignment="Top"/>
+                    <RadioButton x:Name="variant3" HorizontalAlignment="Left" Height="14" Margin="10,5,0,0" VerticalAlignment="Top"/>
+                    <RadioButton x:Name="variant4" HorizontalAlignment="Left" Height="14" Margin="10,5,0,0" VerticalAlignment="Top"/>
+                </StackPanel>
+            </GroupBox>
+        </Grid>
     </Grid>
 </Window>
