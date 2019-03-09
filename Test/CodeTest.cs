@@ -1,5 +1,6 @@
 ﻿using System;
 using System.IO;
+using GuessThePattern.Model.Map;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 
 namespace Test

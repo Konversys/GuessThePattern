@@ -69,8 +69,8 @@
     </Compile>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Model\Map\Code.cs" />
     <Compile Include="Model\Map\Images.cs" />
-    <Compile Include="Model\Patterns.cs" />
     <Compile Include="Properties\AssemblyInfo.cs">
       <SubType>Code</SubType>
     </Compile>
