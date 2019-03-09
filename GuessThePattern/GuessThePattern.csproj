@@ -71,6 +71,10 @@
   <ItemGroup>
     <Compile Include="Model\Map\Code.cs" />
     <Compile Include="Model\Map\Images.cs" />
+    <Compile Include="Model\Models\Name.cs" />
+    <Compile Include="Model\Models\Pattern.cs" />
+    <Compile Include="Model\Models\Type.cs" />
+    <Compile Include="Model\Patterns.cs" />
     <Compile Include="Properties\AssemblyInfo.cs">
       <SubType>Code</SubType>
     </Compile>
@@ -107,8 +111,6 @@
     <Resource Include="Model\Map\Images\Prototype.png" />
     <Resource Include="Model\Map\Images\Strategy.png" />
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="Model\Models\" />
-  </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

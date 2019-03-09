@@ -1,4 +1,7 @@
-﻿using Microsoft.VisualStudio.TestTools.UnitTesting;
+﻿using GuessThePattern.Model;
+using GuessThePattern.Model.Map;
+using GuessThePattern.Model.Models;
+using Microsoft.VisualStudio.TestTools.UnitTesting;
 
 namespace Test
 {
